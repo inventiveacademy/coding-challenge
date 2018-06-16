@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js" /></script>
+    <title>Race Track</title>
+    <style>
+        div{ margin:0px; padding: 0px;}
+        #nav {
+            z-index:100;
+            position: absolute;
+        }
+        #car {
+            position: absolute;
+        }
+        .board-row {
+            height:100px;
+        }
+        .square {
+            position: absolute;
+        }
+        #code-pane {
+            position:absolute;
+            left: 1000px;
+        }
+        #code{
+            width: 500px;
+            height: 600px;
+        }
+
+        .r90 {
+            transform: rotate(90deg);
+        }
+        .r180 {
+            transform: rotate(180deg);
+        }
+        .r270 {
+            transform: rotate(270deg);
+        }
+
+        i {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <select id="game-picker" onchange="reset()">
+            <option>Choose Game</option>
+            <option id="game-1">Simple Track</option>
+            <option id="game-3">Right Turn</option>
+            <option id="game-2">Loop Track</option>
+            <!--<option id="game-4">8 Track</option>-->
+        </select> 
+        <input type="button" value="Start" onclick="start()"/>
+        <input type="button" value="Stop" onclick="stop()" />
+        <input type="button" value="Reset" onclick="reset()" />
+    </div>
+    <div id="code-pane">
+        Type your code here!<BR>
+        <textarea id="code"></textarea><BR><BR>
+        <p>
+            <b>State Management</b><BR>
+            <i>direction</i> tracks the direction of travel
+        </p>
+        <p>
+            <b>Behaviour</b><BR>
+            <i>driveEast()</i> moves your car east<BR>
+            <i>driveWest()</i> moves your car west<BR>
+            <i>driveNorth()</i> moves your car north<BR>
+            <i>driveSouth()</i> moves your car south<BR>
+            <i>turnEast()</i> turns the car east<BR>
+            <i>turnWest()</i> turns the car west<BR>
+            <i>turnNorth()</i> turns the car north<BR>
+            <i>turnSouth()</i> turns the car south<BR>
+        </p>
+        <p>
+            <b>Queries</b><BR>
+            <i>isTurnAhead()</i> boolean to see if there is a turn ahead<BR>
+            <i>getTurnDirection()</i> returns the direction of the coming turn
+        </p>
+    </div>
+    <div id="game-board"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+if(direction == "east") {
+    driveEast();
+}
+else if(direction == "south") {
+    driveSouth();
+}
+else if(direction == "west") {
+    driveWest();
+}
+else if(direction == "north") {
+    driveNorth();
+}
+
+if(isTurnAhead() && getTurnDirection() == "south") {
+    turnSouth();
+}
+
+else if(isTurnAhead() && getTurnDirection() == "west") {
+    turnWest();
+}
+
+else if(isTurnAhead() && getTurnDirection() == "north") {
+    turnNorth();
+}
+else if(isTurnAhead() && getTurnDirection() == "east") {
+    turnEast();
+}
