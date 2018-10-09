@@ -23,15 +23,23 @@
 
 # Información del coche
 
-  - *direction* - la dirección en que conduce el auto
+- *direction* - la dirección en que conduce el auto
 
 # Funciones:
 
-  - *driveEast()* - mueve tu carro al este
-  - *driveWest()* - mueve tu carro al oeste
-  - *driveNorth()* - mueve tu carro al norte
-  - *driveSouth()* - mueve tu carro al sur
-  - *turnEast()* - gira el carro hacia el este
-  - *turnWest()* - gira el carro hacia el oeste
-  - *turnNorth()* - gira el carro hacia el norte
-  - *turnSouth()* - gira el carro hacia el sur
+- *driveEast()* - mueve tu carro al este
+- *driveWest()* - mueve tu carro al oeste
+- *driveNorth()* - mueve tu carro al norte
+- *driveSouth()* - mueve tu carro al sur
+- *turnEast()* - gira el carro hacia el este
+- *turnWest()* - gira el carro hacia el oeste
+- *turnNorth()* - gira el carro hacia el norte
+- *turnSouth()* - gira el carro hacia el sur
+- *isTurnAhead()* - hay un giro por delante
+- *getTurnDirection()* - dame la dirección del siguiente giro
+  - *south* - sur
+  - *north* - norte
+  - *east* - este
+  - *west* - oeste
+  
+  
