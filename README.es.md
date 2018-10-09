@@ -1,6 +1,6 @@
 # Desafío de Codificación
 
-1. Open your web browser and go to [https://inventivegroup.github.io/coding-challenge/](https://inventivegroup.github.io/coding-challenge/).
+1. Abra su navegador web y vaya a [https://inventivegroup.github.io/coding-challenge/](https://inventivegroup.github.io/coding-challenge/).
 2. Elija el curso que desea probar seleccionando una de las opciones disponibles en el menú en la esquina superior izquierda de la página que dice **"Choose Game" (Elige un Juego)**.
 
    Si elige **"Simple Track" (Pista Simple)**, por ejemplo, verás un campo verde con un largo camino negro que se extiende de izquierda a derecha. Hay un **"START" (LÍNEA DE SALIDA)** y un **"FINISH" (LÍNEA DE META)** identificados en la pista. También hay un coche rojo.
