@@ -17,9 +17,9 @@
     El objetivo del juego es hacer que tu auto permanezca en la carretera y que se mueva de la línea START a la línea FINISH. Cómo mueves tu auto depende de ti. Puede escribir cualquier codigo Javascript que desees en la ventana provista. O puede usar las propiedades y funciones que se le proporcionan. Las propiedades y funciones disponibles se escriben para usted y se describen en la esquina inferior derecha de la ventana, justo debajo del cuadro de texto del código.
 
 8. Una vez que resuelva la **"Simple Track" (Pista Simple)**, intente resolver una pista más complicada.
-  - Simple Track (Pista Simple)
-  - Right Turn (Vuelta a la Derecha)
-  - Loop Track (Pista de Bucle)
+    - Simple Track (Pista Simple)
+    - Right Turn (Vuelta a la Derecha)
+    - Loop Track (Pista de Bucle)
 9. ¡Buena suerte!
 
 # Información del coche
